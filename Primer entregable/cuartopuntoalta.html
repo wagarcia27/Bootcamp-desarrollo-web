@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de William Garcia</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body{
+            background-color: rgba(85, 151, 151, 0.493);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tienda deportiva de William Garcia</h1>
+    <form action="formulario.php" method="get">
+        <input type="text" minlength="1" maxlength="20" placeholder="Nombre del producto" name="nombre">
+        <br> <br>
+        <input type="number" min="0" step="1000" placeholder="Precio del producto" name="Precio">
+        <br><br>
+        <select>
+            <option value="default" disabled selected>Tipo de producto</option>
+            <option value="gorra">Gorra</option>
+            <option value="camisa">Camisa</option>
+            <option value="pantalon">Sudadera</option>
+            <option value="zapato">Zapatos</option>
+        </select>
+
+        <select>
+            <option value="default" disabled selected>Marca</option>
+            <option value="nike">Nike</option>
+            <option value="adidas">Adidas</option>
+            <option value="puma">Puma</option>
+            <option value="under armour">Under Armour</option>
+        </select>
+        <br><br>
+        <input type="radio" name="sexo"> Masculino
+        <input type="radio" name="sexo" checked>Femenino
+        <input type="radio" name="sexo" checked>Niño
+        <input type="radio" name="sexo" checked>Niña
+        <br><br>
+        <select>
+            <option value="default" disabled selected>Talla</option>
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+        </select>
+        <input type="number" min="1" step="1" placeholder="Cantidad" name="Cantidad">
+        <br><br>
+        <input type="file" name="imagen" multiple>
+        <br><br>
+        <input type="color" value=""> Color descriptivo del producto
+        <br><br>
+        <input type="email" placeholder="Ingrese su email" name="email" required>
+        <input type="password" placeholder="Ingrese su contraseña" name="password" required>
+        <br><br>
+        <input type="number" min="0" step="1" placeholder="ID del producto" name="ID" required>
+        <br><br>
+        <input type="datetime-local" name="fechayhora"> Ingrese fecha y hora
+        <br><br>
+        <textarea minlength="1" maxlength="550" cols="50" rows="10" placeholder="Describa el producto"
+            name="textolargo"></textarea>
+        <br>
+        <input type="checkbox" name="terminosycondiciones" required> Acepto terminos y condiciones de la tienda
+        <br><br>
+        <button type="reset"> Reset </button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
