@@ -107,6 +107,7 @@ function limpiar(){
 igual.addEventListener("click", function () {
   operandob = display.textContent;
   resolver();
+  
 });
 
 //Aqui defino que hace la funcion resolver para cada operación
@@ -117,14 +118,15 @@ function resolver(){
   if(operacion == "+"){
 
     total = parseFloat(operandoa) + parseFloat(operandob);
-    resetear();
+    
     display.textContent = total;
+
   }
 
   else if(operacion == "-"){
 
     total = parseFloat(operandoa) - parseFloat(operandob);
-    resetear();
+    
     display.textContent = total;
 
   }
@@ -132,21 +134,17 @@ function resolver(){
   else if(operacion == "*"){
 
     total = parseFloat(operandoa) * parseFloat(operandob);
-    resetear();
+    
     display.textContent = total;
-
+    
   }
 
   else{
     total = parseFloat(operandoa) / parseFloat(operandob);
-    resetear();
     display.textContent = total;
-  
+    
   }
 }
-
-
-
 
 // aqui comienza el contador de palabras
 
