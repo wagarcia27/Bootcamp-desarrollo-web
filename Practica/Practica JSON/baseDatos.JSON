@@ -1,0 +1,55 @@
+{
+  "nombre": "Juan",
+  "email": "Juan@gmail.com",
+  "tel": 123123123,
+  "ubicacion": {
+    "direccion": "av. siempre vivas1234",
+    "ciudad": "Springfield",
+    "Pais": "EEUU",
+    "CP": "XS123"
+  }
+}
+
+//PRODUCTOS
+{
+
+
+
+
+}
+//datos que guardaria de una compra
+{
+    "codigo": "0001",
+    "nombre": "Iphone 13",
+    "Color": "Gold",
+    "Cantidad": "2",
+    "precio": "2600",
+    "Cliente": "Homero simpson",
+    "metodopago": "Tarjeta",
+    "direccion": "Calle 1 #23-14",
+    "cuidad": "Bogota",
+    "documento": "45683452",
+    "telefono": "3205846201",
+    "email": "alagrandelepusecuca@gmail.com",
+    "numtarjeta": "456832457856",
+    "franquisia": "Visa"
+}
+
+{
+    "id":1,
+    "nombre":"Luis",
+    "apellido":"Carlos",
+    "correo":"luis@gmail.com",
+    "direccion":"carrera 34a # 40-30",
+    "metodoPago":{
+        "numeroTrajeta":1234,
+        "codigoSeguridad":123,
+        "FechaVencimiento":"02/23"
+    },
+    "producto":{
+        "categoria":"electronica",
+        "producto":"Celular",
+        "color":"rojo",
+        "precio":30000
+    }
+}

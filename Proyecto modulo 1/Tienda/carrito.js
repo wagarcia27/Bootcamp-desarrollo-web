@@ -85,6 +85,7 @@ function removeShoppingCartItem(event) {
     updateShoppingCartTotal();
   }
   
+  //ventana flotante 
 const productButton = document.querySelector(".productButton");
 const payment = document.querySelector(".payment");
 const closes = document.querySelector(".closes");
